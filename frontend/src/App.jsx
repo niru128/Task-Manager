@@ -7,8 +7,12 @@ import Login from './pages/Login'
 import { Navigate } from 'react-router-dom'
 
 function App() {
-  // const [count, setCount] = useState(0)
-  const user = JSON.parse(localStorage.getItem("user"));
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    const storedUser = JSON.parse(localStorage.getItem("user"));
+    setUser(storedUser);
+  }, []);
 
   return (
     <BrowserRouter>

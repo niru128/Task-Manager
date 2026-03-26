@@ -15,7 +15,7 @@ export default function Login() {
       const { data } = await API.post("/auth/login", form);
 
       localStorage.setItem("user", JSON.stringify(data));
-      navigate("/");
+      navigate("/dashboard");
     } catch (err) {
       if (err.response) {
         setError(err.response.data.message || "Login failed");
