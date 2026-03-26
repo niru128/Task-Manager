@@ -5,6 +5,7 @@ import Register from './pages/Register'
 import Dashboard from './pages/Dashboard'
 import Login from './pages/Login'
 import { Navigate } from 'react-router-dom'
+import { useEffect } from 'react'
 
 function App() {
   const [user, setUser] = useState(null);
