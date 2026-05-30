@@ -144,25 +144,6 @@ npm run dev
 
 ---
 
-# ⚖️ Tradeoffs
-
-- No drag-and-drop to keep implementation simple
-- Minimal state management (no Redux)
-- Basic validation for faster development
-- Lightweight UI instead of heavy UI libraries
-
----
-
-# 🚀 Future Improvements
-
-- Drag & drop task movement
-- Task search & filters
-- Due dates & reminders
-- Dark mode
-- Role-based access control
-
----
-
 # 🧪 How to Test
 
 1. Register a user
@@ -175,5 +156,4 @@ npm run dev
 ---
 
 # 👨‍💻 Author
-
-Full-stack MERN Task Manager built as an internship assignment demonstrating authentication, REST APIs, and clean UI architecture.
+Niranjan C B
